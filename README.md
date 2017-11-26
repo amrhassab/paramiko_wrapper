@@ -1,5 +1,5 @@
 # paramiko_wrapper
-This is a simple Python 3 wrapper class for the [Pramiko](http://www.paramiko.org/) Python library. Paramiko allows you to send commands remotly via ssh.it also allows you to retrieve their standard error, standard output and return value with ease. The wrapper class [ssh_wrapper.py](ssh_wrapper.py) handles the case of `sudo` commands and makes the overall use more pleasant and clean.
+This is a simple Python 3 wrapper class for the [Pramiko](http://www.paramiko.org/) Python library. Paramiko allows you to send commands remotly via ssh. Also, it allows you to retrieve their standard error, standard output and return value with ease. The wrapper class [ssh_wrapper.py](ssh_wrapper.py) handles the case of `sudo` commands and makes the overall use more pleasant and clean.
 
 # Usage Example
 Change `0.0.0.0`, `myuser` and `mypassword` to you host credentials in the code below. 
