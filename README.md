@@ -20,7 +20,7 @@ print("stderr: " + tmp['err'])
 ssh.close()
 ```
 
-**Output: **
+**Output:**
 
 ```
 stdout: I can accept commands
