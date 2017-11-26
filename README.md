@@ -3,7 +3,6 @@ This is a simple Python 3 wrapper class for the [Pramiko](http://www.paramiko.or
 
 # Usage Example
 Change `0.0.0.0`, `myuser` and `mypassword` to you host credentials in the code below. 
-
 ```
 import SSH_wrapper.sh
 
@@ -21,7 +20,6 @@ ssh.close()
 ```
 
 **Output:**
-
 ```
 stdout: I can accept commands
 
@@ -36,5 +34,5 @@ Process finished with exit code 0
 ```
 
 # Reference
-[ssh_wrapper.py](ssh_wrapper.py) was compiled from many open-source blogs and Paramiko docs with various tweaks and additional functionality added by me.
+[ssh_wrapper.py](ssh_wrapper.py) was compiled from many open-source blogs and Paramiko docs with a few tweaks and additional functionality added by me.
 
