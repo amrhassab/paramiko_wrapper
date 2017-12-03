@@ -30,7 +30,7 @@ class SshClient:
             stdin.write(self.password + "\n")
             stdin.flush()
 
-        return {'out': stdout.read(),
-                'err': stderr.read(),
+        return {'out': bytes.decode(stdout.read()),
+                'err': bytes.decode(stderr.read()),
                 'retval': stdout.channel.recv_exit_status()}
 
