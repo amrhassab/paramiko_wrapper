@@ -9,8 +9,8 @@ class SshClient:
         client.load_system_host_keys()
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         client.connect(host, username=user, password=password)
-        atexit.register(client.close)
         self.client = client
+        atexit.register(self.client.close())
         self.user = user
         self.password = password
 
