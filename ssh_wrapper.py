@@ -19,7 +19,7 @@ class SshClient:
             self.client.close()
             self.client = None
 
-    # IMPORTANT: for processes and bash scripts to keep running after returning use "nohup" before the commands!
+    # IMPORTANT: bash scripts to keep running after returning use "nohup" before the commands!
     def execute(self, command):
         feed_password = False
         sudo = command.strip().split()[0]
